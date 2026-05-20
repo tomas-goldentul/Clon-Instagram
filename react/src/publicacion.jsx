@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import api from './services/api';
 import PublicacionDetail from './publicacionDetail.jsx';
 import './publicacion.css';
+import perfilImg from "./images/Perfil.webp";
 function Publicacion() {
     const [gatos, setGatos] = useState([]);
     const [gatoSeleccionado, setGatoSeleccionado] = useState(null);
@@ -52,7 +53,7 @@ function Publicacion() {
                     alt="Gatito"
                 />
                 <div class = "footerPost">
-                    <img src="./Perfil.webp" alt="Perfil rinoceronte" />
+                    <img src={perfilImg} alt="Perfil rinoceronte" />
                     <button onClick={() => setGatoSeleccionado(gato)} >
                         Ver detalle
                     </button>
