@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
 import './barraLateral.css';
 
-function barraLateral(props) {
+function CajaLikeSeguidores(props) {
   return (
     <>
-      <div>
-        <h3>{props.icono}{props.numero}</h3>
+      <div className="cajaLikeSeguidores">
+        <h3>{props.iconoFollow}{props.numeroFollow}</h3>
+        <h3>{props.iconoLike}{props.numeroLike}</h3>
+
       </div>
     </>
   );
 }
+export default CajaLikeSeguidores;

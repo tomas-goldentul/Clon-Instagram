@@ -23,3 +23,4 @@ function OpcionesBarraLateral() {
     </>
   );
 }
+export default  OpcionesBarraLateral;

@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import FotoPerfil from './fotoPerfil.jsx'
 import './barraLateral.css'
+import CajaLikeSeguidores from './cajaLikesSeguidores.jsx'
+import OpcionesBarraLateral from './opcionesBarraLateral.jsx'
 
 function BarraLateral() {
   return (
@@ -10,10 +12,9 @@ function BarraLateral() {
         <h2 class="nombre">Javier Martinez</h2>
         <h3>nobcavs911</h3>
         <div>
-            <cajaLikesSeguidores icono={"👍"} numero={"7"}/>
-            <cajaLikesSeguidores icono={"👤"} numero={"11"}/>
+           <CajaLikeSeguidores iconoFollow="👨" numeroFollow="121k"  iconoLike="❤️" numeroLike="900k"/>
         </div>
-        <opcionesBarraLateral/>
+        <OpcionesBarraLateral/>
       </div>
     </>
   );
