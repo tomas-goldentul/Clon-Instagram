@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import './stories.css';
 import Story from "./story.jsx";
+import FotoPefil from "./fotoPerfil.jsx";
+
 function Stories() {
   const [stories, setStories] = useState([
     {
@@ -46,9 +48,13 @@ function Stories() {
       <div>
         {stories.map((story) => (
           <Story key={story.id}
-            username={story.user} imagen={story.img} />
-        ))}
+            username={story.user} />,
+                              <FotoPefil foto={story.img} />
+
+        )
+        )}
       </div>
+
     </>
   );
 }
