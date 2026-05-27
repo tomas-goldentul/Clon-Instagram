@@ -44,7 +44,6 @@ function Stories() {
 
   return (
     <>
-            <h1>Stories</h1>
 
       <div className="stories">
         {stories.map((story) => (

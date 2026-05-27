@@ -1,0 +1,10 @@
+.fotoNav {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.headerIcons > div:last-child .fotoNav {
+  width: 130px;
+  height: 40px;
+}

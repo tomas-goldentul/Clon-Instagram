@@ -1,8 +1,11 @@
+import './searchBar.css'
+
 function SearchBar() {
     return (
         <>
-        <input type="text" placeholder="Ingresa el nombre de un gatito"/>
-
+            <div className='search'>
+                <input type="text" placeholder="🔍           Ingresa el nombre de un gatito" />
+            </div>
         </>
 
 
