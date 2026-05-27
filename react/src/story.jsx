@@ -1,9 +1,10 @@
 import "./story.css";
+import FotoPefil from "./fotoPerfil.jsx";
 
 function Story(props) {
   return (
     <div>
-      <img src={props.imagen} alt={props.username} />
+<FotoPefil foto ={props.foto}/>
       <h3>{props.username}</h3>
     </div>
   );

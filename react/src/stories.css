@@ -1,4 +1,8 @@
 .stories{
     display: flex;
     gap: 50px;
+    margin-top: 12%;
+  height: 200px;
+  overflow: hidden;
+ 
 }
