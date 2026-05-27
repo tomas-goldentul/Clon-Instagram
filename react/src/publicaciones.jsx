@@ -6,7 +6,6 @@ function Publicaciones() {
     return (
         <>
             <div class = "Publicaciones">
-                {/* <Stories /> */}
                 <Publicacion />
             </div>
         </>

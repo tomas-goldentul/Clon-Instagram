@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './publicacionDetail.css';
 
 function PublicacionDetail(props) {
     const [likes, setLikes] = useState(0);
