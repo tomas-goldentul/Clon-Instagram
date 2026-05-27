@@ -34,5 +34,5 @@ react/
     ├── publicaciones.jsx ←  Encargado de llamar al componente publicacion
     ├── searchBar.jsx ← Componente que tiene el buscador del header
     ├── stories.jsx ← Tiene en un useState 7 stories hardcodeadas, las cuales con un map son recorridas y le manda al componente story el id, username e imagen de cada story
-    ├── story.jsx ← Recibe mediante props la información de cada story y la imagen se la manda a Foto perfil para que la estile y ademas muestra el username
+    └── story.jsx ← Recibe mediante props la información de cada story y la imagen se la manda a Foto perfil para que la estile y ademas muestra el username
 ```
