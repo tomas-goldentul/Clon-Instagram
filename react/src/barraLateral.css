@@ -1,5 +1,6 @@
 .BarraLateral {
-    width: 452px;
+    background-color: #100A2C;
+    width: 20%;
     height: 100vh;
     position: fixed;
     top: 80px;

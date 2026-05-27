@@ -1,20 +1,25 @@
 .cajaLikesSeguidores {
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: 100%;
+    gap: 40px;
+    width: 40%;
 }
 
 .followers {
     display: flex;
     align-items: center;
-    gap: 5px;
+    background-color: #282745;
+    padding: 5%;
+    border-radius: 5px;
 }
 
 .likes {
     display: flex;
     align-items: center;
-    gap: 5px;
+    background-color: #282745;
+    padding: 5%;
+    border-radius: 5px;
 }
